@@ -50,9 +50,12 @@ This application was created using `create-react-app` in combination with my [No
 
 **Project Dependencies**
 
+- "@material-ui/core": "^4.11.3",
+- "@material-ui/icons": "^4.11.2",
 - "@testing-library/jest-dom": "^5.11.9",
 - "@testing-library/react": "^11.2.5",
 - "@testing-library/user-event": "^12.8.3",
+- "gh-pages": "^3.1.0",
 - "react": "^17.0.1",
 - "react-dom": "^17.0.1",
 - "react-scripts": "4.0.3",
