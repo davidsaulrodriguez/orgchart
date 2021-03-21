@@ -4,7 +4,7 @@
   "jsxBracketSameLine": true,
   "jsxSingleQuote": true,
   "bracketSpacing": true,
-  "singleQuote": false,
+  "singleQuote": true,
   "htmlWhitespaceSensitivity": "strict",
   "useTabs": false
 }
