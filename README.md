@@ -2,7 +2,6 @@
 
 <span align="center">
 
-
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/davidsaulrodriguez/orgchart)
 [![Build Status](https://travis-ci.com/davidsaulrodriguez/orgchart.svg?branch=main)](https://travis-ci.com/davidsaulrodriguez/orgchart)
 [![GitHub license](https://img.shields.io/github/license/davidsaulrodriguez/orgchart)](https://github.com/davidsaulrodriguez/orgchart)
@@ -18,7 +17,6 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_orgchart&metric=security_rating)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_orgchart)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=davidsaulrodriguez_orgchart&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=davidsaulrodriguez_orgchart)
 ![GitHub commits since latest release (by SemVer)](https://img.shields.io/github/commits-since/davidsaulrodriguez/orgchart/latest/main)
-
 
 </span>
 
@@ -44,6 +42,18 @@ This application was created using `create-react-app` in combination with my [No
 
 ## Screenshots
 
+**Employee Data Table**
+
+!["Home page of the app"](./screenshots/1.png)
+
+**Sort Options**
+
+!["A view of the sort/filter options"](./screenshots/2.png)
+
+**Filter Options**
+
+!["Filter options"](./screenshots/3.png)
+
 **Coming Soon**
 
 ## Dependencies
@@ -51,10 +61,12 @@ This application was created using `create-react-app` in combination with my [No
 **Project Dependencies**
 
 - "@material-ui/core": "^4.11.3",
+- "@material-ui/data-grid": "^4.0.0-alpha.22",
 - "@material-ui/icons": "^4.11.2",
 - "@testing-library/jest-dom": "^5.11.9",
 - "@testing-library/react": "^11.2.5",
 - "@testing-library/user-event": "^12.8.3",
+- "axios": "^0.21.1",
 - "gh-pages": "^3.1.0",
 - "react": "^17.0.1",
 - "react-dom": "^17.0.1",
@@ -63,7 +75,14 @@ This application was created using `create-react-app` in combination with my [No
 
 **Development Dependencies**
 
-- "eslint": "^7.21.0",
+- "babel-eslint": "^10.1.0",
+- "eslint": "^7.22.0",
+- "eslint-config-prettier": "^8.1.0",
+- "eslint-plugin-import": "^2.22.1",
+- "eslint-plugin-jsx-a11y": "^6.4.1",
+- "eslint-plugin-prettier": "^3.3.1",
+- "eslint-plugin-react": "^7.22.0",
+- "eslint-plugin-react-hooks": "^4.2.0",
 - "prettier": "^2.2.1"
 
 ## Installation
